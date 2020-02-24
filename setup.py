@@ -45,7 +45,7 @@ setup(
     classifiers=[
         'Intended Audience :: Developers',
         'Topic :: Utilities',
-        'License :: MIT',
+        'License :: OSI Approved :: MIT License',
         'Natural Language :: English',
         'Operating System :: OS Independent',
         'Programming Language :: Python :: 3',
