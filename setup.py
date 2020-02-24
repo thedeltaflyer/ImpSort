@@ -38,6 +38,7 @@ setup(
     version=__version__,
     description='A python library for interacting with some very terrible sorting algorithms',
     long_description=long_description,
+    long_description_content_type='text/markdown',
     url='http://github.com/thedeltaflyer/ImpSort',
     author=__author__,
     author_email=__email__,
