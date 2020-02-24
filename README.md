@@ -25,7 +25,7 @@ It works by randomly re-sorting the entire list then checking if the new order i
 ### Random Swap Sort
 This is like Bogo Sort... but worse.
 
-It works by randomly picking two items in the list, then swapping them. It then check to see if the whole list is sorted. It is also able to pick the same item, which would result in no change to the list at all!
+It works by randomly picking two items in the list, then swapping them. It then checks to see if the whole list is sorted. It is also able to pick the same item, which would result in no change to the list at all!
 
 ### Recompile Sort
 This is based on the old adage that states that if your code doesn't compile on the first try, it might on the next try....
