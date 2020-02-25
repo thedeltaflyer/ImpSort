@@ -51,7 +51,7 @@ Basic usage:
 from ImpSort import (ImpSort, TimeOutException)
 
 # The default algorithm is 'rand_swap'
-# You can alternatively set it as 'bogo' or 'recompile'
+# You can alternatively set it as 'bogo', 'stalin' or 'recompile'
 # You can also provide a random to use (such as a random.SystemRandom instance)
 sorter = ImpSort()
 
