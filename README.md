@@ -32,6 +32,10 @@ This is based on the old adage that states that if your code doesn't compile on 
 
 So basically this goes through the whole list and sets each item to the same value it had, then checks if the list is now sorted. I believe Einstein would call this pure madness.
 
+### Stalin Sort
+This is a sorting algorithm that always completes in one step. That is that it operates at O(N).
+
+It works by iterating through each item in the list. If an item is not in order, it is eliminated. The end result is guaranteed to be sorted, but you are not guaranteed to still have all the same items you started with...
 
 ## Installation
 Use pip to install:

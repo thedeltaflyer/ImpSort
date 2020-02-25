@@ -10,13 +10,15 @@ from .exceptions import (TimeOutException, ImpSortException)
 from .algorithms.recompile import RecompileSort
 from .algorithms.rand_swap import RandomSwapSort
 from .algorithms.bogo import BogoSort
+from .algorithms.stalin import StalinSort
 
 
 class ImpSort(object):
     algorithms = {
         'rand_swap': RandomSwapSort,
         'bogo': BogoSort,
-        'recompile': RecompileSort
+        'recompile': RecompileSort,
+        'stalin': StalinSort
     }
 
     def __init__(self, algorithm='rand_swap', random=None):

@@ -10,7 +10,7 @@ class TestRandSwap(TestCase):
         sorter = ImpSort('rand_swap')
         unsorted = [24, 106, 2, 42]
         sorter.sort(unsorted)
-        sorted_list = unsorted
+        sorted_list = unsorted[:]
         sorted_list.sort()
         self.assertTrue(sorted_list == unsorted)
 
@@ -19,6 +19,6 @@ class TestRandSwap(TestCase):
         unsorted = [24, 106, 2, 42]
         for u in sorter.sort_generator(unsorted):
             self.assertTrue(isinstance(u, list))
-        sorted_list = unsorted
+        sorted_list = unsorted[:]
         sorted_list.sort()
         self.assertTrue(sorted_list == unsorted)

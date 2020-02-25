@@ -18,6 +18,6 @@ class TestImpSort(TestCase):
         sorter = ImpSort('rand_swap')
         unsorted = []
         sorter.sort(unsorted)
-        sorted_list = unsorted
+        sorted_list = unsorted[:]
         sorted_list.sort()
         self.assertTrue(sorted_list == unsorted)
